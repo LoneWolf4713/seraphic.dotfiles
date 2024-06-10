@@ -1,0 +1,70 @@
+*{
+  font-size: 13px;
+  font-family: "IBM Plex Sans Medium";
+  color: #dadada;
+}
+#waybar {
+  background: transparent;
+  border-radius: 5px;
+}
+#workspaces{
+  border-radius:5px;
+  box-shadow:0px 0px black;
+}
+
+#workspaces,
+#network,
+#backlight,
+#wireplumber,
+#clock,
+#battery,
+#idle_inhibitor,
+#custom-lizzy,
+#bluetooth,
+#custom-power,
+#custom-notification{
+  margin-left:5px;
+  margin-right: 5px;
+  background: #141b1e;
+  border-radius:5px 0px 0px 5px;
+  padding-left:10px;
+  padding-right: 10px;
+}
+
+#network,
+#wireplumber,
+#backlight,
+#bluetooth{
+  margin:0px;
+}
+#backlight,
+#bluetooth{
+  border-radius:0px;
+}
+#wireplumber{
+  border-radius: 0px 5px 5px 0px;
+}
+
+#idle_inhibitor,
+#clock,
+#workspaces,
+#custom-lizzy,
+#custom-power,
+#battery,
+#custom-notification{
+  border-radius: 5px;
+}
+
+#idle_inhibitor.activated{
+  color:#e57474;
+}
+
+#custom-power{
+color:#c47fd5;
+margin-right:10px;
+padding-right:14px;
+}
+
+
+
+

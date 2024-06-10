@@ -1,0 +1,12 @@
+[SddmGreeterTheme]
+Name=Boo
+Description=Boo
+Type=sddm-theme
+Version=0.0.1
+Website=https://github.com/PROxZIMA/boo-sddm
+Screenshot=preview.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+Theme-Id=boo
+Theme-API=2.0
+QtVersion=5

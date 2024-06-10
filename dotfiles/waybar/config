@@ -1,0 +1,142 @@
+{
+	"layer":"top",
+	"position":"bottom",
+	"reload_style_on_change":true,
+		
+	"height":20,
+	"margin-bottom":5,
+	"margin-left": 5,
+	"margin-right":5,
+	
+	"modules-left":["hyprland/workspaces","custom/lizzy"],
+	"modules-center":["clock"],
+	"modules-right":[
+		"custom/notification",
+		"idle_inhibitor",
+		"network",
+		"bluetooth",
+		"backlight",
+		"wireplumber",
+		"clock#time",
+		"battery",
+		"custom/power"
+		],
+		
+		"hyprland/workspaces": {
+		    "all-outputs": true,
+		    "format": "{icon}",
+		    "format-icons": {
+		        "1": "✨",
+		        "2": "🌈",
+		        "3": "💕",
+		        "4": "🎄",
+		        "5": "🌊",
+		        "6": "🌷",
+		        "7": "🪷",
+		        "8": "😽",
+		        "9": "🌙",
+		        "10": "🦋",
+		    },
+		    "on-scroll-up": "hyprctl dispatch workspace e+1 1>/dev/null",
+		    "on-scroll-down": "hyprctl dispatch workspace e-1 1>/dev/null",
+		    "sort-by-number": true,
+		    "active-only": false,
+    },
+    "custom/lizzy": {
+		"format": "<span color='#25be6a'>{icon}</span>  {}",
+		"exec": "lizzy --format ' {{title}} - {{artist}}' --autotoggle --mediaplayer spotify",
+		"return-type": "json",
+		"format-icons": {
+		  "Playing": "",
+		  "Paused": ""
+		},
+		"max-length": 45,
+		"on-click":"playerctl --player=spotify play-pause",
+		"on-scroll-up":"playerctl --player=spotify next",
+		"on-scroll-down":"playerctl --player=spotify previous"
+	},
+	
+	"backlight":{
+		"format": "<span color='#8ccf7e'>󱩖 </span>  {percent}%   ",
+		"device": "intel_backlight",
+		"on-scroll-down": "brightnessctl s 5%-",
+        "on-scroll-up": "brightnessctl s +5%"
+	},
+	
+	"idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        },
+        "tooltip": "true"
+    },
+	
+	"wireplumber": {
+		    "on-click": "pavucontrol",
+		    "on-click-right": "amixer sset Master toggle 1>/dev/null",
+		    "format": "<span foreground='#e5c76b'>{icon}</span>  {volume}%",
+		    "format-muted": "<span foreground='#e5c76b'></span>  Muted",
+		    "format-icons": {
+		        "headphone": " ",
+		        "hands-free": " ",
+		        "headset": " ",
+		        "phone": " ",
+		        "portable": " ",
+		        "car": " ",
+		        "default": [" ", " ", " "]
+		    },
+		},
+        
+    "network": {
+        "format-wifi": "<span color='#67b0e8'></span>   {essid}  ",
+        "format-ethernet": "<span color='#67b0e8'></span>   {ifname}",
+        "format-linked": "<span color='#67b0e8'></span>  {ifname} (No IP)",
+        "format": "<span color='#67b0e8'></span>  Connected",
+        "format-disconnected": "<span color='#67b0e8'></span>  Disconnected",
+        "interval": 60,
+        "on-click":"~/.config/rofi/rofi-wifi-menu.sh"
+    },
+	"clock": {
+		"format": "<span color='#ee5396'></span>  {:%A %e %B}"
+	},
+	"clock#time": {
+		"format": "<span color='#e57474'></span>  {:%H:%M}"
+	},
+	"battery": {
+        "interval": 2,
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "<span color='#8ccf7e'>{icon}</span>   {capacity}%",
+        "format-charging": "<span color='#8ccf7e'></span>  {capacity}%",
+        "format-plugged": "<span color='#8ccf7e'></span>  {capacity}%",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    "bluetooth":{
+    	"format-on": "<span color='#e57474'></span>  Turned On",
+    	"format-off": "<span color='#e57474'></span>  Turned Off",
+    	"format-disabled": "<span color='#e57474'></span>  Disabled",
+    	"format-connected": "<span color='#e57474'></span> Connected",
+    	"format": "<span color='#e57474'></span> Disabled",
+    	"on-click":"blueman-manager &"
+    },
+    
+    "custom/power":{
+    	"format":"",
+    	"on-click":"~/.config/rofi/powermenu/type-4/powermenu.sh"
+    },
+    "custom/notification":{
+    	"format": "󱅫",
+    	"on-click": "swaync-client -t -sw"
+    }
+    
+}
