@@ -26,6 +26,7 @@ SDDM Theme:
 ![enter image description here](https://i.imgur.com/hHPhKe8.png)
 
 Spotify:
+
 ![enter image description here](https://i.imgur.com/os8yT6G.gif)
 
 
