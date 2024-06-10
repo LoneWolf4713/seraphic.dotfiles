@@ -3,12 +3,14 @@
 ![Banner](https://i.imgur.com/xOOLqSL.png)
 ## 🦋 Showcase
 Fetch + Cava:
+
 ![enter image description here](https://i.imgur.com/eTHIX37.gif)
 
 Rofi Menu:
 ![enter image description here](https://i.imgur.com/CmAtp5N.png)
 
 SwayNC:
+
 ![enter image description here](https://i.imgur.com/pAHJ642.gif)
 
 Firefox:
@@ -24,6 +26,7 @@ SDDM Theme:
 ![enter image description here](https://i.imgur.com/hHPhKe8.png)
 
 Spotify:
+
 ![enter image description here](https://i.imgur.com/os8yT6G.gif)
 
 
