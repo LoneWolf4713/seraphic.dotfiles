@@ -26,14 +26,14 @@ SDDM Theme:
 ![enter image description here](https://i.imgur.com/hHPhKe8.png)
 
 Spotify:
-
 ![enter image description here](https://i.imgur.com/os8yT6G.gif)
 
 
 PowerMenu:
 ![enter image description here](https://i.imgur.com/FnHboPx.png)
 #### What's Seraphic You Ask?
-Well, the Oxford Definition for *seraphic* is *`as beautiful, pure, etc. as an angel`* , and that's exactly what I meant to accomplish when I started this rice, A new system free of all the mess of the previous one, I choose Everblush colorscheme, it's minimal yet has all the colors. and as much as I love dark themes, I love colors too, lots and lots of blooming and bright colors, and that's what took this rice into the cute direction, searching for wallpapers I realized this idea of following a theme rather than a colorscheme, I find following a colorscheme difficult and boring, so why not follow a theme, say, "cuteness" rather than a colorscheme, well that's something more fun ! 
+Inspired by the essence of 'seraphic,' as defined by Oxford, *encapsulating beauty and purity akin to an angel*, I embarked on transforming my system. Opting for the Everblush colorscheme, I aimed for minimalism without compromising on vibrancy. Despite my affinity for dark themes, I yearned for an explosion of colors - blooming and bright. This desire led me down the path of cuteness. Instead of adhering strictly to a colorscheme, I embraced the idea of a theme. Choosing 'cuteness' injected a sense of fun and creativity into the process, steering away from the mundane task of adhering to a predefined color palette. It's not just about the colors; it's about evoking a feeling, an ambiance - one that's as enchanting as it is delightful.
+
 I hope you liked this rice and it gave you inspiration to do something of your own <3, if so, don't forget to star this repo! 
 Thanks!
 
@@ -60,9 +60,9 @@ Thanks!
  - **Wallpaper Daemon:** Swww or MPVPaper
  
  ## 🌈 How to Setup?
-I donot recommend anyone to just slap these dotfiles into their ~/.config folder and expect things to work, trust me they won't. if you're an veteran you know what I'm talking about, if you're new, comb through these dotfiles, take some code, some inspiration, try things out and maybe you'll end up making something that's yours! 
-I say this because ricing isn't straightforward as just pasting some config files, it's a whole process that takes into account numerous hours and a gazillion dependencies which I've not documented. so simply copy pasting isn't going to work.
-However here are some points to take into consideration while combing though these:
+put config files where they are supposed to, twist your fingers and hope everything will work fine! Just kidding XD. Install Fonts first, then programs, copy the dotfiles, setup the dotfiles as per the application, if you face further errors, google 'em or raise an issue!
+Thanks! 
+Here are some points to take into consideration while combing though these:
 1. The Rofi Menu is launched by script in `rofi/launchers/type-3/launcher.sh` , customize it by modifying `style-3.rasi` in the same folder
 2. Rofi PowerMenu is launched by script in `rofi/powermenu/type-4/powermenu.sh`, customize it by modifying `style-5.rasi`  in the same folder
 3. Spicetify has a Custom Theme that's in `spicetify/Themes/customTheme/` change your config-xpui.ini so.
@@ -70,6 +70,12 @@ However here are some points to take into consideration while combing though the
 
 ## 🌊 Wallpapers:
 ![enter image description here](https://i.imgur.com/JeMPPx1.jpeg)![enter image description here](https://i.imgur.com/ni8JjkZ.jpeg)![enter image description here](https://i.imgur.com/76T5vK3.jpeg)
-https://i.imgur.com/AHXopDY.mp4
+
+
+
+https://github.com/LoneWolf4713/seraphic.dotfiles/assets/72555478/1146eff6-ad8f-43c2-8b27-321cf1158044
+
+
+
 
 ![enter image description here](https://i.imgur.com/1ioXZiW.gif)![enter image description here](https://i.imgur.com/43ejN4f.png)![enter image description here](https://i.imgur.com/IxfFLAM.png)![enter image description here](https://i.imgur.com/hBFFEqi.png)
