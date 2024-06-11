@@ -67,7 +67,9 @@ Here are some points to take into consideration while combing though these:
 1. The Rofi Menu is launched by script in `rofi/launchers/type-3/launcher.sh` , customize it by modifying `style-3.rasi` in the same folder
 2. Rofi PowerMenu is launched by script in `rofi/powermenu/type-4/powermenu.sh`, customize it by modifying `style-5.rasi`  in the same folder
 3. Spicetify has a Custom Theme that's in `spicetify/Themes/customTheme/` change your config-xpui.ini so.
-4. Thank you for looking into this dotfiles, it means a lot to me ;) don't forget to star if you liked my work.
+4. Install This For Waybar Spotify Module: [Lizzy](https://github.com/stefur/lizzy)
+5. Thank you for looking into this dotfiles, it means a lot to me ;) don't forget to star if you liked my work.
+   
 
 ## 🌊 Wallpapers:
 ![enter image description here](https://i.imgur.com/JeMPPx1.jpeg)![enter image description here](https://i.imgur.com/ni8JjkZ.jpeg)![enter image description here](https://i.imgur.com/76T5vK3.jpeg)
